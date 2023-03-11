@@ -47,11 +47,20 @@ body>section {
 #treble-clef {
     margin-left: 35rem;
     margin-top: .5rem;
-    width: 8.5rem;
+    /* width: 8.5rem; */
+    width: 7.5rem;
     height: 10rem;
 }
 
 #savvy {
-    margin-left: 40.5rem;
-    margin-top: -10.5rem;
+    /* margin-left: 39.8rem; */
+    margin-left: 39rem;
+    /* margin-top: -10rem; */
+    margin-top: -10.3rem;
+}
+
+#quiz_heading {
+    /* margin-left: 46rem; */
+    margin-left: 45rem;
+    margin-top: -.5rem;
 }
