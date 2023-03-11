@@ -12,8 +12,8 @@ html {
 }
 
 body {
-    /* font-family: 'Source Serif Pro', serif; */
-    font-family: 'Cormorant', serif;
+    font-family: 'Source Serif Pro', serif;
+    /* font-family: 'Cormorant', serif; */
     /* Limit how wide content grows on very large screens */
     max-width: 1800px;
     max-height: 100%;
@@ -41,26 +41,21 @@ body>section {
 
 #quiz_heading {
     font-family: 'Cormorant', serif;
+    /* font-family: 'Source Serif Pro', serif; */
     font-size: 2rem;
+    margin-left: 51.7rem;
+    margin-top: -6.7rem;
 }
 
 #treble-clef {
-    margin-left: 35rem;
+    margin-left: 43rem;
     margin-top: .5rem;
-    /* width: 8.5rem; */
-    width: 7.5rem;
+    width: 24rem;
     height: 10rem;
 }
 
-#savvy {
-    /* margin-left: 39.8rem; */
-    margin-left: 39rem;
-    /* margin-top: -10rem; */
-    margin-top: -10.3rem;
-}
+/* #savvy {
+    margin-left: 45.7rem;
+    margin-top: -10rem;
+} */
 
-#quiz_heading {
-    /* margin-left: 46rem; */
-    margin-left: 45rem;
-    margin-top: -.5rem;
-}
