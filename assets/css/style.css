@@ -42,16 +42,20 @@ body>section {
 }
 
 #quiz_heading {
+    display: flex;
+    text-align: center;
     font-family: 'Cormorant', serif;
     /* font-family: 'Source Serif Pro', serif; */
     font-size: 2rem;
     color: #305a4d;
     letter-spacing: .1ch;
-    margin-left: 52.3rem;
-    margin-top: -6.7rem;
+    margin-left: 52.2rem;
+    margin-top: -6.3rem;
 }
 
 #treble-clef {
+    display: flex;
+    align-content: center;
     margin-left: 43rem;
     margin-top: .5rem;
     width: 24rem;
