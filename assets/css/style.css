@@ -12,8 +12,8 @@ html {
 }
 
 body {
-    font-family: 'Source Serif Pro', serif;
-    /* font-family: 'Cormorant', serif; */
+    /* font-family: 'Source Serif Pro', serif; */
+    font-family: 'Cormorant', serif;
     /* Limit how wide content grows on very large screens */
     max-width: 1800px;
     max-height: 100%;
@@ -21,9 +21,9 @@ body {
     margin-right: auto;
 }
 
-body>section {
+/* body>section {
     flex: 1;
-}
+} */
 
 /* HERO IMAGE */
 #hero {
@@ -42,8 +42,6 @@ body>section {
 }
 
 #quiz_heading {
-    display: flex;
-    text-align: center;
     font-family: 'Cormorant', serif;
     /* font-family: 'Source Serif Pro', serif; */
     font-size: 2rem;
