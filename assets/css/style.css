@@ -47,7 +47,7 @@ body>section {
     font-size: 2rem;
     color: #305a4d;
     letter-spacing: .1ch;
-    margin-left: 52.2rem;
+    margin-left: 52.3rem;
     margin-top: -6.7rem;
 }
 
@@ -68,45 +68,44 @@ footer {
     background-color: #5A7D8C;
     color: #fff;
     padding: 20px;
-  }
-  
-  .mediaicons {
+}
+
+.mediaicons {
     text-align: center;
-  }
-  
-  .mediaicons li {
+}
+
+.mediaicons li {
     display: inline-block;
     margin: 0 10px;
-  }
-  
-  .icons {
+}
+
+.icons {
     margin: 0;
     padding: 0;
-  }
-  
-  .icons li {
+}
+
+.icons li {
     display: inline-block;
     margin: 0 10px;
-  }
-  
-  .icons li a {
+}
+
+.icons li a {
     color: #fff;
     font-size: 1.5rem;
-  }
-  
-  .icons li a:hover {
+}
+
+.icons li a:hover {
     text-decoration: underline;
-  }
-  
-  #disclaimer {
+}
+
+#disclaimer {
     text-align: center;
     font-family: 'Cormorant', serif;
     /* font-family: 'Source Serif Pro', serif; */
-  }
-  
-  footer {
+}
+
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+}
