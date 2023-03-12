@@ -21,7 +21,7 @@
         
         <div class="container">
             <img id="treble-clef" src="assets/images/symphonic_savvy_logo.png" 
-                alt="Treble clef in a shap of chelo with horisontally positioned bow across">
+                alt="Treble clef in a shap of chelo with horisontally positioned bow across to serve as a capital letter 'S' for the name 'Symphonic Savvy'">
                 <!-- <img id="treble-clef" src="assets/images/ViolinClef.png" 
                 alt="Treble clef in a shap of chelo with horisontally positioned bow across"> -->
             <!-- <h1 id="savvy">ymphonic Savvy</h1> -->
@@ -45,19 +45,18 @@
                 </ul>
             </div>
                            
-                <div id="disclaimer">
-                    <p>
-                        All materials used for an educational purpose only
-                    </p>
-                    <p>
-                        Milestone Project 2, Full Stack Developer course with Code Institute
-                        <br>
-                        Created by Victoria Kalenik-Harris as a part of a portfolio
-                    </p>
-                </div>
+            <div id="disclaimer">
+                <p>All materials used for an educational purpose only</p>
+                <p>
+                  Milestone Project 2, Full Stack Developer course with Code Institute
+                  <br />
+                  Created by Victoria Kalenik-Harris as a part of a portfolio
+                </p>
+                <p id="current-year"></p> <!-- placeholder for current year -->
+              </div>
             </div>
+            <script>
+              var currentYear = new Date().getFullYear();
+              document.getElementById("current-year").innerHTML = "&copy; " + currentYear + " 'Symphonic Savvy' Claccical Mucic Quiz";
+            </script>
     </footer>
-    
-    <script src="assets/js/script.js"></script>
-</body>
-</html>
