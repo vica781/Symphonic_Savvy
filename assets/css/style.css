@@ -27,7 +27,10 @@ body {
 
 /* HERO IMAGE */
 #hero {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     background-image: url('../images/hero_image.webp');
     background-size: cover;
@@ -36,33 +39,24 @@ body {
 }
 
 /* LOGO */
-.container {
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
-}
-
 #quiz_heading {
+    font-size: 2rem;
+    text-align: center;
     font-family: 'Cormorant', serif;
     /* font-family: 'Source Serif Pro', serif; */
     font-size: 2rem;
     color: #305a4d;
     letter-spacing: .1ch;
-    margin-left: 52.2rem;
     margin-top: -6.3rem;
+    margin-left: 8rem;
 }
 
 #treble-clef {
     display: flex;
     align-content: center;
-    margin-left: 43rem;
-    margin-top: .5rem;
-    width: 24rem;
-    height: 10rem;
-}
-
-#savvy {
-    margin-left: 45.7rem;
-    margin-top: -10rem;
+    max-width: 100%;
+    height: auto;
+    margin-top: -30rem;
 }
 
 /* FOOTER */
@@ -111,3 +105,10 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/* MEDIA QUERIES */
+/* @media only screen and (max-width: 480px) {
+    #hero {
+        height: auto;
+    }
+} */
