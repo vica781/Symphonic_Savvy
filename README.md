@@ -19,6 +19,6 @@ to creat ROCK PAPER SCISSORS LIZARD SPOCK game.
 I have tried to change my approach to the project and I have started with 
 functional prototype of JavaScript code to make sure that the game works 
 (I can select veapon, computer selects weapon, 
-the score is displayed, adeded, etc.). And then I have added layout and styling.
+the score is displayed, updated and added, etc.). And then I have added layout and styling.
 
 [View the live project here.](https://vica781.github.io/Rock_Paper_Scissors_Lizard_Spock_PP2/)
